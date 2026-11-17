@@ -63,6 +63,33 @@
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
                 "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
+        },
+         {
+            "name": "Nguyễn Thành Hoàn",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
+            ]
+        },
+         {
+            "name": "Trịnh Võ Thùy Trâm",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
+            ]
+        },
+         {
+            "name": "Nguyễn thành Đạt",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
+            ]
         }
     ]
 }
