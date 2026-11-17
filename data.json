@@ -1,3 +1,4 @@
+
 {
     "guests": [
         {
@@ -6,16 +7,16 @@
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         },
-       {
+        {
             "name": "Dương Minh Nghĩa",
             "date": "18/11/2026",
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         },
         {
@@ -24,7 +25,7 @@
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         },
         {
@@ -33,7 +34,7 @@
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         },
         {
@@ -42,7 +43,7 @@
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         },
         {
@@ -51,7 +52,7 @@
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         },
         {
@@ -60,7 +61,7 @@
             "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
             "timeSlots": [
                 "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
-                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+                "17:00 - 18:00: Gặp mặt chụp hình lưu niệm"
             ]
         }
     ]
