@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101827">
+
+    <meta name="description" content="Thiệp mời tham dự lễ tốt nghiệp HUIT">
+
+    <title>Graduation Invitation | HUIT</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="background-gradient"></div>
+        <div class="background-glow glow-1"></div>
+        <div class="background-glow glow-2"></div>
+        <div class="background-particles" id="particles"></div>
+    </div>
+
+    <main class="app-container">
+
+        <!-- SCREEN 1: INPUT NAME -->
+        <section class="screen screen-input active" id="inputScreen">
+
+            <div class="invitation-card">
+
+                <div class="card-top-decoration">
+                    <span class="decoration-line"></span>
+                    <span class="decoration-star">✦</span>
+                    <span class="decoration-line"></span>
+                </div>
+
+                <div class="university-label">
+                    HO CHI MINH CITY UNIVERSITY OF INDUSTRY AND TRADE
+                </div>
+
+                <div class="university-short">HUIT</div>
+
+                <div class="card-divider"></div>
+
+                <p class="welcome-text">
+                    Một dấu mốc đáng nhớ đang chờ bạn
+                </p>
+
+                <h1 class="main-title">
+                    Graduation
+                    <span>Invitation</span>
+                </h1>
+
+                <p class="description">
+                    Hành trình thanh xuân sắp khép lại,
+                    một chặng đường mới đang mở ra.
+                    <br>
+                    Hãy nhập họ tên của bạn để mở thiệp mời nhé!
+                </p>
+
+                <form id="nameForm" class="name-form">
+
+                    <div class="input-wrapper">
+                        <span class="input-icon">✧</span>
+
+                        <input
+                            type="text"
+                            id="guestName"
+                            name="guestName"
+                            placeholder="Nhập họ và tên của bạn..."
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <p class="error-message" id="errorMessage" role="alert"></p>
+
+                    <button type="submit" class="submit-button" id="submitButton">
+                        <span>MỞ THIỆP MỜI</span>
+                        <span class="button-arrow">→</span>
+                    </button>
+
+                </form>
+
+                <div class="card-footer">
+                    <span>WITH LOVE & GRATITUDE</span>
+                    <span>✦</span>
+                    <span>HUIT GRADUATION</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SCREEN 2: INVITATION -->
+        <section class="screen screen-invitation" id="invitationScreen">
+
+            <div class="invitation-content">
+
+                <div class="invitation-header">
+                    <span class="header-decoration">✦</span>
+
+                    <p class="header-label">
+                        A SPECIAL INVITATION FOR YOU
+                    </p>
+
+                    <h2 class="invitation-title">
+                        You're Invited
+                    </h2>
+
+                    <p class="invitation-subtitle">
+                        LỜI MỜI THAM DỰ LỄ TỐT NGHIỆP
+                    </p>
+                </div>
+
+                <div class="invitation-divider">
+                    <span></span>
+                    <span>✧</span>
+                    <span></span>
+                </div>
+
+                <p class="guest-label">
+                    TRÂN TRỌNG GỬI ĐẾN
+                </p>
+
+                <h3 class="guest-name" id="displayGuestName">
+                    Guest Name
+                </h3>
+
+                <p class="invitation-message">
+                    Sự hiện diện của bạn là niềm vui và
+                    vinh dự đối với tôi trong ngày đặc biệt này.
+                    <br><br>
+                    Tôi rất mong được đón tiếp bạn đến chung vui,
+                    cùng lưu giữ những khoảnh khắc đáng nhớ
+                    trong hành trình trưởng thành của mình.
+                </p>
+
+                <!-- EVENT INFORMATION -->
+                <div class="graduation-info">
+
+                    <div class="info-item">
+                        <span class="info-icon">🎓</span>
+
+                        <div>
+                            <span class="info-label">SỰ KIỆN</span>
+                            <strong>Lễ tốt nghiệp HUIT</strong>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📅</span>
+
+                        <div>
+                            <span class="info-label">NGÀY TỔ CHỨC</span>
+                            <strong id="eventDate">---</strong>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+
+                        <div>
+                            <span class="info-label">ĐỊA ĐIỂM</span>
+                            <strong id="eventLocation">---</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- EVENT TIME SLOTS -->
+                <div class="time-section">
+
+                    <div class="time-section-header">
+                        <span class="time-section-icon">✦</span>
+
+                        <div>
+                            <h3>Lịch trình ngày tốt nghiệp</h3>
+                            <p>GRADUATION SCHEDULE</p>
+                        </div>
+
+                        <span class="time-section-icon">✦</span>
+                    </div>
+
+                    <div class="time-slots" id="timeSlots">
+                        <!-- JavaScript tự động hiển thị khung giờ -->
+                    </div>
+
+                </div>
+
+
+                <!-- CLOSING -->
+                <div class="invitation-closing">
+                    <p>Rất mong được gặp bạn!</p>
+
+                    <span>With love,</span>
+
+                    <h4>Graduation Day</h4>
+                </div>
+
+                <div class="invitation-footer">
+                    <span>
+                        HO CHI MINH CITY UNIVERSITY OF INDUSTRY AND TRADE
+                    </span>
+
+                    <span>✦ HUIT ✦</span>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

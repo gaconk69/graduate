@@ -1,0 +1,67 @@
+{
+    "guests": [
+        {
+            "name": "Nguyễn Xuân Thi",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        },
+       {
+            "name": "Dương Minh Nghĩa",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        },
+        {
+            "name": "Nguyễn Thanh Hải",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        },
+        {
+            "name": "Vũ Đức Trọng",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        },
+        {
+            "name": "Thiện",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        },
+        {
+            "name": "Nguyễn Phương Minh",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        },
+        {
+            "name": "Hà Xuân Phú",
+            "date": "18/11/2026",
+            "location": "Trường Đại học Công Thương TP.HCM (HUIT)",
+            "timeSlots": [
+                "14:00 - 15:00: Gặp mặt chụp hình lưu niệm",
+                "17h:00 - 18h:00: Gặp mặt chụp hình lưu niệm",
+            ]
+        }
+    ]
+}
