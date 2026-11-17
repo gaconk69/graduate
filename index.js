@@ -52,9 +52,7 @@ function normalizeName(name) {
 
 async function loadGuestData() {
     try {
-        const response = await fetch("./data.json", {
-            cache: "no-cache"
-        });
+        const response = await fetch('./data.json');
 
         if (!response.ok) {
             throw new Error(
